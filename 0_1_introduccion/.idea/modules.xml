@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1_01_problema.iml" filepath="$PROJECT_DIR$/1_01_problema.iml" />
       <module fileurl="file://$PROJECT_DIR$/../1_02_default_methods/1_02_default_methods.iml" filepath="$PROJECT_DIR$/../1_02_default_methods/1_02_default_methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../2_02_lambda_expressions/2_02_lambda_expressions.iml" filepath="$PROJECT_DIR$/../2_02_lambda_expressions/2_02_lambda_expressions.iml" />
     </modules>
   </component>
 </project>

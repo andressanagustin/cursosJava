@@ -4,7 +4,7 @@ package org.formacion;
 /**
  * El ejercicio consiste en implementar los metodos de tal forma que 
  * devuelvan una lambda expression que implementen la interface declarada
- * como tipo de devolución.
+ * como tipo de devoluciï¿½n.
  * 
  * Por ejemplo
  * 
@@ -16,7 +16,7 @@ package org.formacion;
  * Por tanto, vuestra implementacion del metodo devuelve5 debe tener la forma:
  *    return lambda_expression;
  * 
- * Donde lambda_expression es una implementación del método int valor() que siempre
+ * Donde lambda_expression es una implementaciï¿½n del mï¿½todo int valor() que siempre
  * devuelve 5
  * 
  */
@@ -25,12 +25,12 @@ public class LambdasFactory {
 	
 	/** Devuelve una implemtacion de constante que siempre devuelve 5 */
 	public Constante devuelve5() {
-		return null;
+		return () -> 5;
 	}
 
 	/** Devuelve una implementacion de Operador con el metodo de suma de dos enteros */
 	public Operador obtenSumador() {
-		return null;
+		return (a,b) -> a + b;
 	}
 	
 	/** 
@@ -40,7 +40,11 @@ public class LambdasFactory {
 	 * seguno parametro del metodo incializa
 	 */
 	public InicializadorArrays obtenInicializador() {
-		return null;
+		return (array,valor) -> {
+			for (int i =0;i<array.length;i++) {
+				array[i]= valor;
+			}
+		};
 	}
 	
 }
