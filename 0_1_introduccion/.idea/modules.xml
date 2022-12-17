@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/../1_02_default_methods/1_02_default_methods.iml" filepath="$PROJECT_DIR$/../1_02_default_methods/1_02_default_methods.iml" />
       <module fileurl="file://$PROJECT_DIR$/../2_02_lambda_expressions/2_02_lambda_expressions.iml" filepath="$PROJECT_DIR$/../2_02_lambda_expressions/2_02_lambda_expressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/../3_01_jdk_functional_interfaces/3_01_jdk_functional_interfaces.iml" filepath="$PROJECT_DIR$/../3_01_jdk_functional_interfaces/3_01_jdk_functional_interfaces.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../3_01_jdk_functional_interfaces_solucion/3_01_jdk_functional_interfaces_solucion.iml" filepath="$PROJECT_DIR$/../3_01_jdk_functional_interfaces_solucion/3_01_jdk_functional_interfaces_solucion.iml" />
       <module fileurl="file://$PROJECT_DIR$/../3_03_optional/3_03_optional.iml" filepath="$PROJECT_DIR$/../3_03_optional/3_03_optional.iml" />
     </modules>
   </component>

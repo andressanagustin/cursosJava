@@ -9,10 +9,12 @@ public class Vivienda {
 	private String nombre;
 
 	public Vivienda(Persona propietario, String nombre) {
+		this.propietario = Optional.of(propietario);
 		this.nombre = nombre;
 	}
 	
 	public Vivienda(String nombre) {
+		this.propietario = Optional.empty();
 		this.nombre = nombre;
 	}
 
@@ -25,7 +27,7 @@ public class Vivienda {
 	}
 	
 	public Optional<String> nombrePropietario() {
-		return null;
+		return this.propietario.map(p->p.getNombre());
 	}
 	
 	
