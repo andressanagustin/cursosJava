@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/../2_02_lambda_expressions/2_02_lambda_expressions.iml" filepath="$PROJECT_DIR$/../2_02_lambda_expressions/2_02_lambda_expressions.iml" />
       <module fileurl="file://$PROJECT_DIR$/../3_01_jdk_functional_interfaces/3_01_jdk_functional_interfaces.iml" filepath="$PROJECT_DIR$/../3_01_jdk_functional_interfaces/3_01_jdk_functional_interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/../3_03_optional/3_03_optional.iml" filepath="$PROJECT_DIR$/../3_03_optional/3_03_optional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../4_02_streams_pipeline/4_02_streams_pipeline.iml" filepath="$PROJECT_DIR$/../4_02_streams_pipeline/4_02_streams_pipeline.iml" />
     </modules>
   </component>
 </project>
