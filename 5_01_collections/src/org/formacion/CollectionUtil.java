@@ -1,5 +1,7 @@
 package org.formacion;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 
@@ -36,5 +38,12 @@ public class CollectionUtil {
 		StringBuilder text = new StringBuilder();
 		factura.forEach((k,v)-> text.append(k.toString()+":"+v.toString()+","));
 		return text.toString();
+	}
+
+	public void Order (List<String> original){
+		original.sort(Comparator.naturalOrder());
+
+		Collections.sort(formAttachmentString);
+
 	}
 }
