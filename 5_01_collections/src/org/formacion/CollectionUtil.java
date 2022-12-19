@@ -10,7 +10,8 @@ public class CollectionUtil {
 	 * tengan un nombre con un espacio en blanco 
 	 */
 	public void eliminaNombresConEspacios(List<Persona> original) {
-		original.removeIf(l->!l.getNombre().contains(" "));
+//original.removeIf(it -> it.getNombre().indexOf(' ') != -1);
+		original.removeIf(l->l.getNombre().contains(" "));
 	}
 	
 	/**
@@ -18,6 +19,9 @@ public class CollectionUtil {
 	 * Id con cuidado con el segundo apellido, que es optional!
 	 */
 	public void pasarAMayusculas (List<Persona> original) {
+		original.replaceAll(p->new Persona( p.getNombre().toUpperCase(),
+											p.getApellido1().toUpperCase(),
+											p.getApellido2().map(it->it.toUpperCase())));
 	}
 	
 	
@@ -29,6 +33,8 @@ public class CollectionUtil {
 	 * El metodo debe devolver "prod1:4,prod2:5," 
 	 */
 	public String aTexto (Map<String, Integer> factura) {
-		return "";
+		StringBuilder text = new StringBuilder();
+		factura.forEach((k,v)-> text.append(k.toString()+":"+v.toString()+","));
+		return text.toString();
 	}
 }
